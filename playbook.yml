@@ -2,8 +2,8 @@
   become: true
   roles:
     - web
-- hosts: mysqlserver
-  become: true
-  vars_files: roles/database/vars/main.yml
-  roles:
-    - database
+#- hosts: mysqlserver
+#  become: true
+#  vars_files: roles/database/vars/main.yml
+#  roles:
+#    - database
