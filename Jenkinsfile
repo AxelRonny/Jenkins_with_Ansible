@@ -5,7 +5,7 @@ node {
     }
     
     stage('Playbook') {
-        sh 'ansible-playbook playbook.yml -i inventaire.ini -vvv'
+        sh 'sudo ansible-playbook playbook.yml -i inventaire.ini -vvv'
         
     }
     
